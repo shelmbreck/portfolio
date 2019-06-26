@@ -11,68 +11,85 @@
   <link href="style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-  <div class="container">
-    <h1 class="header center grey-text text-accent-3" id="name-logo">Samantha      Helmbreck</h1>
-      <p class="header center indigo-text text-accent-3">Front-End Developer |     Back-End Developer
-      </p>
-    </div>
+  <img src="./images/IMG-9050.JPG" id="profile"></img>
+  <br>  
+  <div id="opener">
+    <h1 class="header center white-text" id="name-logo">Samantha      Helmbreck</h1>
+    <p class="header center indigo-text accent-1" id="work-title">Front-End Developer |     Back-End Developer | Cooking Enthusiast </p>
     <hr>
+  </div>
     <div id="quote">
       <h4 class="center black-text">Developer(noun.)</h4>
       <p class="center black-text">A person who fixed a problem that</p>
       <p class="center black-text">you don't know you have,</p>
       <p class="center black-text">in a way you don't understand</p>
-    </div>  
-  <div class= "deep-purple accent-1">
-    <h5 class="center-align light">Languages</h5>
-      <p class="center-align light"> HTML5 | CSS3 | Javascript | SQL | ES6 | Python |</p>
-    <h5 class="center-align light">Libraries</h5>
-    <p class="center-align light"> jQuery | Materialize | Bcrypt | Passport |        Bootstrap | Redux | HTML Canvas | EJS | Axios |</p>
-    <h5 class="center-align light">Frameworks</h5>
-    <p class="center-align light"> React | Django | Express | Node |</p>
-    <h5 class="center-align light">Databases</h5>
-    <p class="center-align light"> PostgreSQL | MongoDB | Mongoose | Sequelize |</p>
-    <h5 class="center-align light">Other</h5>
-    <p class="center-align light"> RESTful Routing | SCRUM/Agile | Ajax | JSON | BSON | Encryption | Sessions |</p>
-  </div>
-  <div class="col l3 s12 teal accent-3">
-    <h5 class="grey-text" id="projects">Projects</h5>
-    <ul>
-      <li>
+      <hr>
+    </div>
+    <div id="about">
+      <p class="center white-text">I'm a Full Stack Web Developer in Seattle with a passion for creation and problem solving. My biggest passion is being able todeliver exceptional results to meet the needs of my team. </p>
+      <p class="center white-text">Pivoting from an administrative rolewhere I took over the website management, this specific role inspired myinterest in website development.</p>
+      <hr>
+    </div>
+  <div id="skills">
+    <h5>Languages</h5>
+      <p class="center white-text"> HTML5 | CSS3 | Javascript | SQL | ES6 | Python</p>
+    <h5>Libraries</h5>
+    <p class="center white-text"> jQuery | Materialize | Bcrypt | Passport | Bootstrap | Redux | HTML Canvas | EJS | Axios</p>
+    <h5>Frameworks</h5>
+    <p class="center white-text"> React | Django | Express | Node</p>
+    <h5>Databases</h5>
+    <p class="center white-text"> PostgreSQL | MongoDB | Mongoose | Sequelize</p>
+    <h5 >Other</h5>
+    <p class="center white-text"> RESTful Routing | SCRUM/Agile | Ajax | JSON | BSON | Encryption | Sessions</p>
+    <hr>
+    <h3 class="header center black-text">Recent Projects</h3>
+      <div id="projects">
         <a class="white-text" 
-          img src="/images/Screen Shot 2019-06-14 at 1.51.00 PM.png" href="https://shelmbreck.github.io/wheel-of-fortune/"
-        >Wheel Of Fortune</a></li>
-      <li><a class="white-text" href="https://mom-whats-for-dinner.herokuapp.com/">Mom What's For Dinner?</a></li>
-      <li><a class="white-text" href="http://kerokero.herokuapp.com/">Kero</a></li>
-      
-    </ul>
+        href="https://shelmbreck.github.io/wheel-of-fortune/"
+        >Wheel Of Fortune</a>
+        <img src="./images/Screen Shot 2019-06-14 at 1.53.58 PM.png" id="WOF">
+        <a class="white-text" href="https://mom-whats-for-dinner.herokuapp.com/">Mom What's For Dinner?</a>
+        <img src="./images/Screen Shot 2019-06-14 at 1.51.00 PM.png" id="dinner">
+        <a class="white-text" href="http://kerokero.herokuapp.com/">Kero</a>
+        <img src="./images/Screen Shot 2019-06-17 at 3.59.46 PM.png" id="kero">
+    <hr>
   </div>
-  <div>
-    <form class="col s12 pink lighten-3">
+  <!-- <div>
+    <form id="contact">
       <div class="row">
-        <div class="input-field col s9">
+        <div class="input-field col">
           <i class="material-icons prefix">account_circle</i>
           <input id="icon_prefix" type="text" class="validate">
           <label for="icon_prefix">Your Name</label>
         </div>
+      </div>
+      <div class="row">
+        <div class="input-field col">
+          <i class="material-icons prefix">email</i>
+          <input id="email" type="email" class="validate">
+          <label for="icon_prefix">Your Email</label>
+        </div>
+      </div>
           <div class="row">
-            <div class="input-field col s9">
-              <input id="email" type="email" class="validate">
-              <label for="email">Email</label>
-              <span class="helper-text" data-error="wrong" data-success="right">Helper text</span>
+            <div class="input-field col">
+              <i class="material-icons prefix">message</i>
+              <input id="message" type="text" class="validate">
+              <label for="icon_prefix">Hey Sam, let's talk!</label>
             </div>
           </div>
-        </div>
-          <div class="row">
-            <div class="input-field col s9">
-              <textarea id="textarea1" class="materialize-textarea"></textarea>
-              <label for="textarea1">Your Message:</label>
-        </div>
+          <button class="btn waves-effect waves-light" 
+                  type="submit" 
+                  name="action">Submit
+              <i class="material-icons right">send</i>
+          </button>          
       </form>
-    </div>
-  <footer class="page-footer indigo accent-3
-  ">
-          <h5 class="white-text">Social Media Links</h5>
+    </div> -->
+  <footer>
+    <img src="./images/GitHub-Mark-Light-32px.png">
+    <img src="./images/LI-Logo.png" id="linkedin">
+    <i class="small material-icons prefix white-text">file_download</i>
+    <i class="small material-icons prefix white-text">email</i>
+
   </footer>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
